@@ -1,3 +1,11 @@
+.vscode/
+data/
+figures/
+results/
+resources/atlases
+resources/surfaces
+.ipynb_checkpoints/
+
 # Byte-compiled / optimized / DLL files
 __pycache__/
 *.py[cod]

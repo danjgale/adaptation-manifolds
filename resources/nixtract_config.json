@@ -1,0 +1,23 @@
+{
+  "as_vertices": false,
+  "denoise-pre-extract": false,
+  "regressors": [
+    "motion", 
+    "compcor",
+    "high_pass"
+  ],
+  "load_confounds_kwargs": {
+    "motion": "full",
+    "compcor": "anat",
+    "n_compcor": 5, 
+    "acompcor_combined": false
+  },
+  "standardize": true,
+  "t_r": 2,
+  "high_pass": null,
+  "low_pass": 0.1,
+  "detrend": true,
+  "discard_scans": 3,
+  "n_decimals": 8,
+  "verbose": true
+}
